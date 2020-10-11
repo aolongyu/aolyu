@@ -6,6 +6,9 @@
  */
 
 import React, { Component } from 'react';
+
+import Box from './box/index';
+
 import styles from './index.module.less';
 
 class Login extends Component {
@@ -13,8 +16,8 @@ class Login extends Component {
   render() {
     return (
       <div className={styles.container}>
-        <div></div>
-
+        <h1>aolyu</h1>
+        <Box />
       </div>
     );
   }

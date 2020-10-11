@@ -12,7 +12,10 @@ class Box extends Component {
 
   render() {
     return (
-      <div className={styles.container}>login/box</div>
+      <div className={styles.container}>
+        <input placeholder="username" type="text" />
+        <input placeholder="password" type="password" />
+      </div>
     );
   }
 }
