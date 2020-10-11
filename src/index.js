@@ -1,5 +1,5 @@
 /**
- * index
+ * index.js
  * 
  * @author aolyu
  * @created 2020/10/06 20:14:00
@@ -8,14 +8,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter, Route, Switch } from 'react-router-dom';
-import App from './pages/Index/index';
-import Test from './pages/Index/InputBox/index';
+import Login from './pages/login/index';
+import Home from './pages//home/index';
 
 ReactDOM.render(
   <HashRouter>
     <Switch>
-      <Route path="/test" component={Test}/>
-      <Route component={App}/>
+      <Route path="/home" component={Home}/>
+      <Route component={Login}/>
     </Switch>
   </HashRouter>
-  , document.getElementById('root'))
+  , document.getElementById('root')
+)
