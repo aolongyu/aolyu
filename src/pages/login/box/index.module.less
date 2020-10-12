@@ -5,3 +5,44 @@
  * @created 2020/10/11 19:52:34
  */
 
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  .box {
+    width: 400px;
+    height: 280px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgb(158, 158, 158);
+    background-color: #fff;
+    .inputStyle {
+      input {
+        height: 30px;
+        font-size: large;
+        border-radius: 10px;
+        text-indent: 10px;
+      }
+      input:focus {
+        outline: none;
+        box-shadow: 2px 2px 4px  rgb(158, 158, 158);
+      }
+    }
+    .inputUsername {
+      margin-top: 50px;
+      margin-left: 6px;
+    }
+    .inputPassword {
+      margin-top: 20px;
+      margin-left: 6px;
+    }
+    .submitBtn {
+      width: 200px;
+      height: 30px;
+      margin-top: 20px;
+      border: 0;
+      border-radius: 15px;
+      box-shadow: 2px 2px 4px  rgb(158, 158, 158);
+      outline: none;
+    }
+  }
+}

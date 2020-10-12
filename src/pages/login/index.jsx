@@ -18,6 +18,9 @@ class Login extends Component {
       <div className={styles.container}>
         <h1>aolyu</h1>
         <Box />
+        <div className={styles.footer}>
+          <span>Copyright © aolyu   闽ICP备520号-1    福建省福州市大学新区学府南路33号 350118</span>
+        </div>
       </div>
     );
   }
